@@ -1,5 +1,5 @@
 
-import { WhatsApp } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 const WhatsAppButton = () => {
   return (
@@ -10,7 +10,7 @@ const WhatsAppButton = () => {
       className="fixed bottom-6 right-6 z-50 bg-primary text-white rounded-full p-3 shadow-lg hover:bg-green-700 transition-colors"
       aria-label="Join our WhatsApp group"
     >
-      <WhatsApp size={32} />
+      <MessageSquare size={32} />
     </a>
   );
 };
