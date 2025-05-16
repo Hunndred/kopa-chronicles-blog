@@ -28,6 +28,16 @@ const Footer = () => {
                   About
                 </Link>
               </li>
+              <li>
+                <Link to="/faq" className="text-gray-600 hover:text-primary transition-colors">
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-gray-600 hover:text-primary transition-colors">
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
           

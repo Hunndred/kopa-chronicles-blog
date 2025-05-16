@@ -18,12 +18,18 @@ const Header = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-6">
           <Link to="/" className="font-medium hover:text-primary transition-colors">
             Home
           </Link>
           <Link to="/about" className="font-medium hover:text-primary transition-colors">
             About
+          </Link>
+          <Link to="/faq" className="font-medium hover:text-primary transition-colors">
+            FAQ
+          </Link>
+          <Link to="/contact" className="font-medium hover:text-primary transition-colors">
+            Contact
           </Link>
           <Link 
             to="https://chat.whatsapp.com/EXAMPLELINK" 
@@ -62,6 +68,20 @@ const Header = () => {
               onClick={toggleMenu}
             >
               About
+            </Link>
+            <Link 
+              to="/faq" 
+              className="font-medium py-2 hover:text-primary transition-colors"
+              onClick={toggleMenu}
+            >
+              FAQ
+            </Link>
+            <Link 
+              to="/contact" 
+              className="font-medium py-2 hover:text-primary transition-colors"
+              onClick={toggleMenu}
+            >
+              Contact
             </Link>
             <Link 
               to="https://chat.whatsapp.com/EXAMPLELINK" 
