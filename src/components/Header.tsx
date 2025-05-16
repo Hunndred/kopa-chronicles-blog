@@ -13,7 +13,12 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center gap-2">
+          <img 
+            src="/lovable-uploads/fcd14cb6-7fd5-4852-a5df-d30df23418dd.png" 
+            alt="NYSC Logo" 
+            className="h-8 w-auto" 
+          />
           <h1 className="text-2xl font-bold text-primary">9JAKOPA</h1>
         </Link>
 
